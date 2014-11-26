@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="GRADE SETTINGS" android:key="gradeSettings">
+	    <EditTextPreference android:title="Highest Grade (%)" android:key="keyHigh" />
+	    <EditTextPreference android:title="Lowest Grade (%)" android:key="keyLowest" />
+	    <EditTextPreference android:title="Passing Grade (%)" android:key="passingGrade" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Contact Developer" android:key="aboutSettings">
+	</PreferenceCategory>
+</PreferenceScreen>

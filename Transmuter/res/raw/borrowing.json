@@ -1,0 +1,18 @@
+{
+    "borrowing": {
+        "photocopy": "For photocopy - 15mins.",
+        "overnight": "For overnight - starts at 4pm, returning before 9am.",
+        "present": "Present your library borrowers card.",
+        "logbook": "Fill up log book.",
+        "bookcard": "Fill up bookcard.",
+        "borrowerscard": "Library borrowers card is being returned to the borrower in exchange for the school id to be presented to the entrance gate.",
+        "schoolid": "School ID - will be left in exchange for the borrowed book."
+    },
+    "requirements": {
+        "schoolid": "School ID.",
+        "borrowerscard": "Library borrowers card.",
+        "searching": "Searching of books.",
+        "colorcoding": "Class number of the books by course (Color coding).",
+        "location": "Locate the book from the shelve."
+    }
+}

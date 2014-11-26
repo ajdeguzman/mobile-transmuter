@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <TextView
+     android:id="@+id/textView2"
+     android:textStyle="bold"
+     android:fontFamily="sans-serif-light"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5sp"
+     android:layout_marginLeft="5sp"
+     android:text="HIGHEST SCORE"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:textColor="#80CBC4"/>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="number" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+     android:id="@+id/textView4"
+     android:textStyle="bold"
+     android:fontFamily="sans-serif-light"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5sp"
+     android:layout_marginLeft="5sp"
+     android:text="PASSING SCORE"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:textColor="#80CBC4"/>
+
+    <LinearLayout
+    	android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	    <EditText
+	        android:id="@+id/editText4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:ems="10"
+	        android:inputType="number" >
+	    </EditText>
+
+	    <Spinner
+	        android:id="@+id/eSpinnerPercentage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp" />
+
+    </LinearLayout>
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:onClick="clickGenerate"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Generate" />
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_marginTop="5dp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Clear" />
+
+</LinearLayout>
