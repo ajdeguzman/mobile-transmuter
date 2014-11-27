@@ -334,8 +334,10 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f02002f
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
-int drawable ic_launcher 0x7f020033
-int drawable roundcorner 0x7f020034
+int drawable ic_info_white_24dp 0x7f020033
+int drawable ic_info_white_48dp 0x7f020034
+int drawable ic_launcher 0x7f020035
+int drawable roundcorner 0x7f020036
 int id action_bar 0x7f0b0033
 int id action_bar_activity_content 0x7f0b0003
 int id action_bar_container 0x7f0b0032
@@ -344,6 +346,7 @@ int id action_bar_spinner 0x7f0b0002
 int id action_bar_subtitle 0x7f0b0021
 int id action_bar_title 0x7f0b0020
 int id action_context_bar 0x7f0b0034
+int id action_info 0x7f0b0049
 int id action_menu_divider 0x7f0b0005
 int id action_menu_presenter 0x7f0b0006
 int id action_mode_bar 0x7f0b0030
@@ -455,10 +458,11 @@ int string abc_searchview_description_submit 0x7f0c0009
 int string abc_searchview_description_voice 0x7f0c000a
 int string abc_shareactionprovider_share_with 0x7f0c000e
 int string abc_shareactionprovider_share_with_application 0x7f0c000d
+int string action_info 0x7f0c0012
 int string action_settings 0x7f0c0011
 int string app_name 0x7f0c000f
 int string hello_world 0x7f0c0010
-int string title_activity_result 0x7f0c0012
+int string title_activity_result 0x7f0c0013
 int style AppBaseTheme 0x7f0d00eb
 int style AppTheme 0x7f0d00ec
 int style Base_TextAppearance_AppCompat 0x7f0d0098

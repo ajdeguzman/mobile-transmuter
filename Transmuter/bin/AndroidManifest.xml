@@ -23,6 +23,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MyPreference"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/action_settings" >
+        </activity>
+        <activity
             android:name=".ResultActivity"
             android:parentActivityName=".MainActivity"
             android:label="@string/title_activity_result" >

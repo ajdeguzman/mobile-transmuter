@@ -1636,8 +1636,10 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int ic_launcher=0x7f020033;
-        public static final int roundcorner=0x7f020034;
+        public static final int ic_info_white_24dp=0x7f020033;
+        public static final int ic_info_white_48dp=0x7f020034;
+        public static final int ic_launcher=0x7f020035;
+        public static final int roundcorner=0x7f020036;
     }
     public static final class id {
         public static final int action_bar=0x7f0b0033;
@@ -1648,6 +1650,7 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0b0021;
         public static final int action_bar_title=0x7f0b0020;
         public static final int action_context_bar=0x7f0b0034;
+        public static final int action_info=0x7f0b0049;
         public static final int action_menu_divider=0x7f0b0005;
         public static final int action_menu_presenter=0x7f0b0006;
         public static final int action_mode_bar=0x7f0b0030;
@@ -1829,10 +1832,11 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0c000d;
+        public static final int action_info=0x7f0c0012;
         public static final int action_settings=0x7f0c0011;
         public static final int app_name=0x7f0c000f;
         public static final int hello_world=0x7f0c0010;
-        public static final int title_activity_result=0x7f0c0012;
+        public static final int title_activity_result=0x7f0c0013;
     }
     public static final class style {
         /** 
