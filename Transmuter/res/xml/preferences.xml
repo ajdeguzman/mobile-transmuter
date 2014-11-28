@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     <PreferenceCategory android:title="GRADE SETTINGS" android:key="gradeSettings">
-	    <EditTextPreference android:title="Highest Grade (%)" android:key="keyHigh" />
-	    <EditTextPreference android:title="Lowest Grade (%)" android:key="keyLowest" />
-	    <EditTextPreference android:title="Passing Grade (%)" android:key="passingGrade" />
+	    <EditTextPreference android:title="Highest Grade Percentage" android:defaultValue="100"  android:key="keyHigh" />
+	    <EditTextPreference android:title="Lowest Grade Percentage" android:defaultValue="70"  android:key="keyLowest" />
+	    <EditTextPreference android:title="Passing Grade Percentage" android:defaultValue="75"  android:key="passingGrade" />
 	</PreferenceCategory>
-	<PreferenceCategory android:title="Contact Developer" android:key="aboutSettings">
+	<PreferenceCategory android:title="FEEDBACK" android:key="aboutSettings">
+	    <Preference
+		        android:key="contactDevKey"
+		        android:title="Contact Developer"
+		        android:summary="Found bugs? Notify developer">
+		</Preference>
+	    <Preference
+		        android:key="rateKey"
+		        android:title="Rate this App">
+		</Preference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="ABOUT" android:key="aboutKey">
+	    <Preference
+		        android:key="aboutVersion"
+		        android:enabled="false"
+		        android:title="Version"
+		        android:summary="v1.0">
+		</Preference>
+	    <Preference
+		        android:key="aboutOpenSource"
+		        android:title="Licenses"
+		        android:summary="Open Source">
+		</Preference>
+	    <Preference
+		        android:key="aboutTransmuter"
+		        android:title="About Transmuter">
+		</Preference>
 	</PreferenceCategory>
 </PreferenceScreen>

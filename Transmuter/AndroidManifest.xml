@@ -24,13 +24,29 @@
         </activity>
         <activity
             android:name=".MyPreference"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/action_settings" >
+            android:label="@string/action_settings"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".ResultActivity"
+            android:label="@string/title_activity_result"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".MyPreferenceActivity"
+            android:label="@string/action_settings"
             android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_result" >
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".OpenSource"
+            android:label="@string/title_activity_open_source"
+            android:parentActivityName=".MyPreferenceActivity" >
+        </activity>
+        <activity
+            android:name=".AboutTransmuter"
+            android:label="@string/title_activity_about_transmuter"
+            android:parentActivityName=".MyPreferenceActivity" >
         </activity>
     </application>
 
